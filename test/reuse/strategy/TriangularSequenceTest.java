@@ -11,7 +11,7 @@ import static reuse.matchers.IterableBeginsWith.beginsWith;
 
 public class TriangularSequenceTest {
 
-  final TriangularSequence sequence = new TriangularSequence();
+  final NumberSequence sequence = new NumberSequence(new TriangularSequence());
 
   @Test
   public void definesFirstTermToBeOne() {
